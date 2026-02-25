@@ -2,10 +2,8 @@ from openai import OpenAI
 
 
 # 第三方API
-# API_KEY = "sk-L0vMLaLCunDzGeXcfUrRUAraN7d9lhH923S6rZd3I37fFDn9"
-# BASE_URL = "https://api2.aigcbest.top/v1"
-API_KEY = "sk-iQNi4QVn8Dj8TVxeEcTObAoxwm3R9vKF3NgsDY8tPk7gknee"
-BASE_URL = "https://35.aigcbest.top/v1"
+API_KEY = 
+BASE_URL = 
 
 
 
@@ -21,7 +19,7 @@ class CloseSourceLLM:
         completion = self.client.chat.completions.create(
             model=self.model_name,
             messages=messages,
-            temperature=0,  # 采用贪婪编码
+            temperature=0,  
             top_p=1,
             n=1,
             timeout = 60
