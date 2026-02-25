@@ -1,12 +1,6 @@
 from openai import OpenAI
 
 
-# 第三方API
-# API_KEY = "sk-L0vMLaLCunDzGeXcfUrRUAraN7d9lhH923S6rZd3I37fFDn9"
-# BASE_URL = "https://api2.aigcbest.top/v1"
-API_KEY = "sk-lxI8LItrsWVv1BieC61l91OgVxRtn6bUxnAQkdEW9uwDwlX2" #GPT专用
-BASE_URL = "https://35.aigcbest.top/v1"
-
 
 
 class CloseSourceLLM:
